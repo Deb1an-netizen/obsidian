@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d97bfca779477b5c",
+        "id": "6177cb13a6f9dae3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cypher Query Language.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cypher Query Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,13 +82,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d97bfca779477b5c",
+  "active": "6177cb13a6f9dae3",
   "lastOpenFiles": [
     "Cypher Query Language.md",
-    "GraphQL.md",
     "Express.js.md",
+    "GraphQL.md",
+    "Nodes.md",
     "Properties.md",
-    "Relationships.md",
-    "Nodes.md"
+    "Relationships.md"
   ]
 }

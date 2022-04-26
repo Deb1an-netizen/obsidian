@@ -14,11 +14,15 @@ Labels are kind of like tags that allows us to specify certain types of entities
 The concept of label is similar to SQL table name.
 
 ###### Nodes in Cypher:
-`//data stored with this direction
-`CREATE (p:Person)-[:LIKES]->(t:Technology)
+```
+//data stored with this direction
+CREATE (p:Person)-[:LIKES]->(t:Technology)
 
-``//query relationship backwards will not return results
-`MATCH (p:Person)<-[:LIKES]-(t:Technology)
-``
-``//better to query with undirected relationship unless sure `of direction
-`MATCH (p:Person)-[:LIKES]-(t:Technology)
+//query relationship backwards will not return results
+MATCH (p:Person)<-[:LIKES]-(t:Technology)
+
+//better to query with undirected relationship unless sure of direction
+MATCH (p:Person)-[:LIKES]-(t:Technology)
+```
+
+

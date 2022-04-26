@@ -30,11 +30,13 @@ Let’s see `MATCH` and `RETURN` in action.
 
 Let’s create a simple example graph with the following query:
 
-`CREATE (john:Person {name: 'John'})
-`CREATE (joe:Person {name: 'Joe'})
-`CREATE (steve:Person {name: 'Steve'})
-`CREATE (sara:Person {name: 'Sara'})
-`CREATE (maria:Person {name: 'Maria'})
-`CREATE (john)-[:FRIEND]->(joe)-[:FRIEND]->(steve)
-`CREATE (john)-[:FRIEND]->(sara)-[:FRIEND]->(maria)
+```
+CREATE (john:Person {name: 'John'})
+CREATE (joe:Person {name: 'Joe'})
+CREATE (steve:Person {name: 'Steve'})
+CREATE (sara:Person {name: 'Sara'})
+CREATE (maria:Person {name: 'Maria'})
+CREATE (john)-[:FRIEND]->(joe)-[:FRIEND]->(steve)
+CREATE (john)-[:FRIEND]->(sara)-[:FRIEND]->(maria)
+```
 
